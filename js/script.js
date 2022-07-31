@@ -14,15 +14,15 @@ var elQuestionsText9 = document.createElement("p");
 var elLink = document.createElement("a");
 
 var intro = alert("Birinchi va ikkinchi oydagi savollar to`plami");
-var qustionFirst = prompt("F.I.SH");
-var qustionSecond = prompt("Bootstrap nima?");
-var qustionThird = prompt("Resposive bilan adaptasiya ni farqi?");
-var qustionFourth = prompt("Mixsin ni chaqirish uchun nima?");
-var qustionFivth = prompt("Scss da main.scss faylni birinchi bulib qaysi elementni ulaymiz?");
-var qustionSixth = prompt("Boottrapda qaysi classda margin-left-auto qiladi?");
-var qustionSeventh = prompt("Selectni ichidan qanaqa element ochiladi?");
-var qustionEleventh = prompt("Form ni ichidagi 'action' atribitini ishida nima yoziladi");
-var qustionNinth = prompt("Bootstrapda qaysi classda 'fontsize' berilgan?");
+var qustionFirst = prompt("F.I.SH").trim();
+var qustionSecond = prompt("Bootstrap nima?").trim();
+var qustionThird = prompt("Resposive bilan adaptasiya ni farqi?").trim();
+var qustionFourth = prompt("Mixsin ni chaqirish uchun nima?").trim();
+var qustionFivth = prompt("Scss da main.scss faylni birinchi bulib qaysi elementni ulaymiz?").trim();
+var qustionSixth = prompt("Boottrapda qaysi classda margin-left-auto qiladi?").trim();
+var qustionSeventh = prompt("Selectni ichidan qanaqa element ochiladi?").trim();
+var qustionEleventh = prompt("Form ni ichidagi 'action' atribitini ishida nima yoziladi").trim();
+var qustionNinth = prompt("Bootstrapda qaysi classda 'fontsize' berilgan?").trim();
 
 elBody.appendChild(elContent);
 elContent.appendChild(elTitle);
